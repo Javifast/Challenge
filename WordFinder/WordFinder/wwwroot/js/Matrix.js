@@ -1,5 +1,4 @@
-﻿const { now } = require("jquery");
-
+﻿
 function generateMatrix(rows, columns) {
     if (document.contains(document.getElementById("MatrixTable"))) {
         document.getElementById("MatrixTable").remove();
