@@ -1,0 +1,152 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#TittleImage {
+    display: block;
+    max-width: 55%;
+    max-height: 55%;
+    width: auto;
+    height: auto;
+    margin:auto;
+}
+
+#EmailImage {
+    width: 30px;
+    height: 30px;
+    margin-left:5px;
+}
+
+#MatrixTable {
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.matrixCell {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+}
+
+#MatrixWordTable {
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 10px;
+}
+
+.matrixWordCell {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+    width: 200px;
+    height: 23px;
+}
+
+#MatrixResultsTable {
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 10px;
+}
+
+.resultsWordCell {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    color: goldenrod;
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+    width: 200px;
+    height: 23px;
+}
+
+.WordSection {
+    display: flex;
+}
+
+#MatrixSection {
+    margin-top: 270px;
+}
+
+#WordsTable, #ResultsTable {
+    flex: 1;
+    float: left;
+    width: 50%;
+}
+
+.buttonCustMain {
+    margin-left: 10px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+.buttonCustMain:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+}
+
+.buttonCustSimple {
+    margin-left: 10px;
+    background-color: lightslategray;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+.buttonCustSimple:hover {
+    background-color: dimgrey;
+    transition: 0.7s;
+}
+
+
+select {
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 0.3em 1em 0.3em 1em;
+    color: #000;
+    background-color: blanchedalmond;
+    border: 2px solid #caced1;
+    font-size: 1rem;
+}
+
+select:hover {
+    background-color: bisque;
+    transition: 0.7s;
+}
